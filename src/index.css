@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* linelaser components\ui\linelaser*/
+@keyframes slidMask {
+    from {
+        x : -100%;
+    }
+    to {
+        x : 100%;
+    }
+    
+}
+.mask-rect{
+  animation : slidMask 5s ease infinite;
+}

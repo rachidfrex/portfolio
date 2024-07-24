@@ -1,10 +1,10 @@
 import './index.css'
-import Nav from './components/nav'
+import Home from './pages/home/home'
 function App() {
 
   return (
-    <div className=' w-full m-0 h-fit'>
-      <Nav/>
+    <div className=' w-full m-0 h-fit bg-slate-950'>
+      <Home/>
     </div>
       
 
