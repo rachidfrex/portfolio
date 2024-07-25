@@ -5,6 +5,7 @@ import About from '../../components/About'
 function home() {
   return (
     <div>
+      
         <Nav/>
         <Header/>
     
