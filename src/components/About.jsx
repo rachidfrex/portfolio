@@ -31,11 +31,12 @@ const About = () => {
                 </div>
 
                 <div className='relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700   lg:col-span-5 lg:row-span-2 rounded-3xl flex justify-center items-center'>
-                    <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.32),rgba(255,255,255,0))]"></div>
+                <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.32),rgba(255,255,255,0))]"></div>
+
                     <p
                         className=' p-6   text-sm '
                     >
-                        A passionate  <strong className=' text-blue-400 text-lg '> full stack developer</strong>   with expertise in both front end and back end technologies. I love creating innovative solutions and bringing ideas to life through code. When I'm not coding, I enjoy reading mangas and exploring new tech trends.
+                        A passionate  <strong className=' text-neutral-300 text-lg  '> full stack developer</strong>   with expertise in both front end and back end technologies. I love creating innovative solutions and bringing ideas to life through code. When I'm not coding, I enjoy reading mangas and exploring new tech trends.
                     </p>
 
 
@@ -61,7 +62,8 @@ const About = () => {
                 </div>
                 {/* my name  */}
                 <div className=' relative overflow-hidden   backdrop-blur-lg text-white p-6  lg:col-span-2 lg:row-span-1 rounded-3xl flex justify-center items-center border-2 border-gray-700'>
-                    <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.32),rgba(255,255,255,0))]"></div>
+                <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.32),rgba(255,255,255,0))]"></div>
+
 
                    <div className='flex justify-center  items-center w-full gap-5'>
                         <div className='  border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
@@ -74,7 +76,8 @@ const About = () => {
                 </div>
                 {/* logo of me  */}
                 <div className='  relative overflow-hidden   backdrop-blur-lg text-white p-6   lg:col-span-3 lg:row-span-2 rounded-3xl flex justify-center items-center border-2 border-gray-700'>
-                    <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.32),rgba(255,255,255,0))]"></div>
+                <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.32),rgba(255,255,255,0))]"></div>
+
                     <img src={svg} alt="svg" className=" w-52 h-52  -right-[70px] -top-20 opacity-25 -z-10 bg-cover absolute" />
 
                     <img src={logo} className=' w-[350px]' alt="logo" />
@@ -85,7 +88,8 @@ const About = () => {
                 
                 {/* frent end  */}
                 <div className=' relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700   py-10 lg:col-span-3 lg:row-span-3 rounded-3xl flex flex-col justify-center items-center'>
-                    <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.2),rgba(255,255,255,0))]"></div>
+                <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.32),rgba(255,255,255,0))]"></div>
+
                     <div className=' flex justify-center items-center h-full w-full gap-2 ' >
 
                         <div className=' border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
@@ -117,8 +121,10 @@ const About = () => {
                 </div>
                 {/* end of the frent end colomn */}
                 {/* back end info */}
-                <div className='dark:bg-gray-950/80 relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700  py-10 lg:col-span-3 lg:row-span-3 rounded-3xl flex flex-col justify-center items-center'>
-                    <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.2),rgba(255,255,255,0))]"></div>
+                <div className='relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700  py-10 lg:col-span-3 lg:row-span-3 rounded-3xl flex flex-col justify-center items-center'>
+                <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.32),rgba(255,255,255,0))]"></div>
+
+
                     <div className=' flex justify-center items-center h-full w-full gap-2 ' >
 
                         <div className=' border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
