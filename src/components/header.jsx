@@ -1,17 +1,18 @@
 import React from 'react'
-
+import {Spotlight} from '../components/ui/Spotlight'
 function Header() {
   return (
     <div className='flex flex-col justify-center items-center  w-full  h-[80vh] '>
+        <Spotlight />
         <h1
-        className='text-white text-6xl font-bold uppercase'
+        className='text-white text-7xl font-bold uppercase'
         >
-            my name <br /> is rachid 
+            my name  is rachid 
         </h1>
         <p
-        className='text-white text-xl  uppercase'
+        className='text-white text-lg mt-5  uppercase'
         >
-            i am a web developer
+            I'm a full stack developer
         </p>
     </div>
   )

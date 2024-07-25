@@ -64,8 +64,8 @@ const About = () => {
                     <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.32),rgba(255,255,255,0))]"></div>
 
                    <div className='flex justify-center  items-center w-full gap-5'>
-                        <div className=' border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
-                        <FaGithub  size={35} />
+                        <div className='  border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
+                        <FaGithub   size={35} />
                         </div>
                         <div className=' border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
                         <FaLinkedinIn   size={35}/>

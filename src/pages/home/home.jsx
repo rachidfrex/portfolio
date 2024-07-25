@@ -7,6 +7,7 @@ function home() {
     <div>
         <Nav/>
         <Header/>
+    
         <About/>
     </div>
   )
