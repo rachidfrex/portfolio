@@ -5,9 +5,9 @@ const Linelaser2 = (size ,buttonColor)   => {
     <div className={`flex justify-center items-center relative w-[${size}]  `}>
             {/* back */}
             <svg width="100%" height="272" viewBox="0 0 1438 272" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 4.55487C480.5 -23.4452 763.5 188.555 1436 160.055" stroke="#D5D5D5" stroke-width="4"/>
-                <path d="M4.5 113.055C366 74.0548 1191 232.555 1437.5 185.555" stroke="#D5D5D5" stroke-width="4"/>
-                <path d="M4.5 270.055C617 119.555 1065 286.055 1434.5 210.555" stroke="#D5D5D5" stroke-width="4"/>
+                <path d="M1 4.55487C480.5 -23.4452 763.5 188.555 1436 160.055" stroke="#D5D5D5" stroke-width="6"/>
+                <path d="M4.5 113.055C366 74.0548 1191 232.555 1437.5 185.555" stroke="#D5D5D5" stroke-width="6"/>
+                <path d="M4.5 270.055C617 119.555 1065 286.055 1434.5 210.555" stroke="#D5D5D5" stroke-width="6"/>
             </svg>
             {/* front  */}
             <svg className="absolute" width="100%" height="272" viewBox="0 0 1438 272" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,9 +28,9 @@ const Linelaser2 = (size ,buttonColor)   => {
                         </feMerge>
                     </filter>
                 </defs>
-                <path d="M1 4.55487C480.5 -23.4452 763.5 188.555 1436 160.055" stroke="blue" stroke-width="4" mask="url(#gradient-mask)" filter="url(#glow)"/>
-                <path d="M4.5 113.055C366 74.0548 1191 232.555 1437.5 185.555" stroke="blue" stroke-width="4" mask="url(#gradient-mask)" filter="url(#glow)"/>
-                <path d="M4.5 270.055C617 119.555 1065 286.055 1434.5 210.555" stroke="blue" stroke-width="4" mask="url(#gradient-mask)" filter="url(#glow)"/>
+                <path d="M1 4.55487C480.5 -23.4452 763.5 188.555 1436 160.055" stroke="white" stroke-width="7" mask="url(#gradient-mask)" filter="url(#glow)"/>
+                <path d="M4.5 113.055C366 74.0548 1191 232.555 1437.5 185.555" stroke="white" stroke-width="7" mask="url(#gradient-mask)" filter="url(#glow)"/>
+                <path d="M4.5 270.055C617 119.555 1065 286.055 1434.5 210.555" stroke="white" stroke-width="7" mask="url(#gradient-mask)" filter="url(#glow)"/>
             </svg>
         </div>
     );
