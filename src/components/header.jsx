@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="flex flex-col justify-center items-center  w-full  h-[40vh] md:h-[80vh] ">
       <Spotlight
-        className=" md:ml-20 -top-40  left-0 md:left-60 md:-top-20"
+        className="  md:ml-20 -top-40  left-0 md:left-60 md:-top-20"
         fill="white"
       />
     
