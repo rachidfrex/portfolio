@@ -67,12 +67,12 @@ const About = () => {
 
 
                    <div className='flex justify-center  items-center w-full gap-5'>
-                        <div className='  border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
+                        <a href="https://github.com/rachidfrex" className='  border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
                         <FaGithub   size={35} />
-                        </div>
-                        <div className=' border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
+                        </a>
+                        <a href='https://www.linkedin.com/in/rachid-hajouji-642576292/' className=' border-2 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 '>
                         <FaLinkedinIn   size={35}/>
-                        </div>
+                        </a>
                    </div>
                 </div>
                 {/* logo of me  */}
