@@ -3,6 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import Card from "./card";
 import offblog from "../assets/images/offblog.jpeg";
 import gomanga from "../assets/images/gomanga.jpeg";
+import naghma from "../assets/images/naghma.jpeg";
 
 function ProjectCard() {
   const projectsRef = useRef(null);
@@ -60,7 +61,7 @@ function ProjectCard() {
 
     },
     {
-      image: 'naghma',
+      image: naghma,
       tags: [
         { name: "react", color: "bg-blue-500" },
         { name: "tailwind", color: "bg-sky-400" }
