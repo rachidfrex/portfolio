@@ -1,24 +1,33 @@
-import React from 'react'
-import logo from "../assets/images/logoDEV.png"
+
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import logo from "../assets/images/logoDEV.png";
+
 function Nav() {
+  const [selected, setSelected] = useState('about'); 
+
   return (
-        <div
-        className='flex justify-center mx-3  items-center py-5'
-        >
-           
-            <nav className=' text-center w-full py-1  md:w-auto  text-sm bg-zinc-800/90 gap-1 px-1  flex  text-white     rounded-full    '>
-
-            <img src={logo} className='h-7 w-7 mx-2  ' alt="" />
-            <ul className='flex font-rubik w-full justify-center items-center space-x-4 '>
-            <li className=' bg-zinc-700 px-3 py-0.5 rounded-full'>About</li>
-            <li  className=' px-3 py-1 rounded-full'>project </li>
-            <li  className=' px-3 py-1 rounded-full'>Contact</li>
-            </ul> 
-        </nav>
-        
-        </div>
-
-  )
+    <div className=' fixed w-full z-50 flex justify-center mx-3 items-center py-5'>
+      <nav className='text-center py-1 w-auto text-sm overflow-hidden bg-zinc-800/90 gap-1 px-1 flex text-white rounded-full'>
+        <img src={logo} className='h-7 w-7 mx-2' alt="" />
+        <ul className='flex font-rubik w-full justify-center items-center space-x-4'>
+          {['about', 'project', 'contact'].map(item => (
+            <li key={item} onClick={() => setSelected(item)} className='px-5  z-10 py-1 rounded-full cursor-pointer relative'>
+              {item.charAt(0).toUpperCase() + item.slice(1)}
+              {selected === item && (
+                <motion.div
+                  layoutId="underline"
+                  className="bg-zinc-700  absolute bottom-0 -z-[1] rounded-full  left-0 right-0 h-full"
+                  initial={false}
+                  transition={{ type: 'spring', stiffness: 500, damping: 30 }}
+                />
+              )}
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+  );
 }
 
-export default Nav
+export default Nav;
