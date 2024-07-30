@@ -3,6 +3,7 @@ import Nav from "../../components/nav"
 import Header from '../../components/header'
 import About from '../../components/About'
 import Project from '../../components/project'
+import Contact from '../../components/contact'
 function home() {
   return (
     <div className=' '>
@@ -11,6 +12,7 @@ function home() {
         <Header/>
         <About/>
         <Project/>
+        <Contact/>
 
     </div>
   )
