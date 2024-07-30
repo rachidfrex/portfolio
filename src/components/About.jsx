@@ -17,8 +17,8 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div id="about" className="max-w-7xl  px-3 lg:mx-auto w-full  lg:h-[700px] flex justify-center   items-center">
-      <div className=" flex flex-col  justify-center lg:grid grid-cols-12  grid-rows-10 lg:grid-rows-6 gap-4 h-full w-full">
+    <div id="about" className="max-w-7xl px-3 lg:mx-auto w-full  lg:h-[700px] flex justify-center   items-center">
+      <div className=" flex flex-col mt-5   justify-center lg:grid grid-cols-12  grid-rows-10 lg:grid-rows-6 gap-4 h-full w-full">
         <div className="relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700  lg:h-auto     lg:col-span-4 lg:row-span-3 rounded-3xl flex justify-center items-center ">
           {/* <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.32),rgba(255,255,255,0))]"></div> */}
 
