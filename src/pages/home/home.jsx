@@ -5,7 +5,7 @@ import About from '../../components/About'
 import Project from '../../components/project'
 function home() {
   return (
-    <div>
+    <div className=' '>
       
         <Nav/>
         <Header/>

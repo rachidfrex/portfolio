@@ -1,6 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef} from "react";
 import { motion, useAnimation } from "framer-motion";
 import Card from "./card";
+import offblog from "../assets/images/offblog.jpeg";
+import gomanga from "../assets/images/gomanga.jpeg";
 
 function ProjectCard() {
   const projectsRef = useRef(null);
@@ -40,11 +42,13 @@ function ProjectCard() {
 
   const projects = [
     {
-      image: 'offblog',
+      image: offblog,
       tags: [
-        { name: "react", color: "bg-blue-500" },
-        { name: "tailwind", color: "bg-sky-400" },
-        { name: "laravel", color: "bg-orange-400" }
+        { name: "react"},
+        { name: "tailwind" },
+        { name: "laravel"},
+        { name: "mysql" }
+
       ],
       data: {
         title: "offblog",
@@ -70,7 +74,7 @@ function ProjectCard() {
       details: "A beautiful website for a coffee shop built with React and Tailwind CSS."
     },
     {
-      image: 'gomanga',
+      image: gomanga,
       tags: [
         { name: "laravel", color: "bg-orange-400" },
         { name: "tailwind", color: "bg-sky-400" },
@@ -92,7 +96,7 @@ function ProjectCard() {
 
 
   return (
-    <div className="mt-5 mx-5 md:mt-20 flex flex-col justify-center items-center">
+    <div className="mt-5 mx-5 overflow-hidden md:mt-20 flex flex-col justify-center items-center">
       <h1 className="text-2xl pb-1 md:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
          my projects
         </h1>
