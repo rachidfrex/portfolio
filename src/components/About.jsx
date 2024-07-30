@@ -25,7 +25,8 @@ const About = () => {
             >
 
                 <div className='relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700  lg:h-auto     lg:col-span-4 lg:row-span-3 rounded-3xl flex justify-center items-center '>
-                    <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.32),rgba(255,255,255,0))]"></div>
+                    {/* <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.32),rgba(255,255,255,0))]"></div> */}
+
 
                     <img className='  object-cover object-top h-[400px] lg:h-full  w-full  ' src={sukuna} alt="" />
                 </div>
