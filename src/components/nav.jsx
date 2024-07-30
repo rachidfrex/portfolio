@@ -12,7 +12,7 @@ function Nav() {
         <img src={logo} className='h-7 w-7 mx-2' alt="" />
         <ul className='flex font-rubik w-full justify-center items-center space-x-4'>
           {['about', 'project', 'contact'].map(item => (
-            <li key={item} onClick={() => setSelected(item)} className='px-5  z-10 py-1 rounded-full cursor-pointer relative'>
+            <a href={`#${item}`} key={item} onClick={() => setSelected(item)} className='px-5  z-10 py-1 rounded-full cursor-pointer relative'>
               {item.charAt(0).toUpperCase() + item.slice(1)}
               {selected === item && (
                 <motion.div
@@ -23,7 +23,7 @@ function Nav() {
                   transition={{ type: 'spring', stiffness: 500, damping: 30 }}
                 />
               )}
-            </li>
+            </a>
           ))}
         </ul>
       </nav>

@@ -97,7 +97,7 @@ function ProjectCard() {
 
 
   return (
-    <div className="mt-5 mx-5 overflow-hidden md:mt-20 flex flex-col justify-center items-center">
+    <div id="project" className="mt-5 mx-5 overflow-hidden md:mt-20 flex flex-col justify-center items-center">
       <h1 className="text-2xl pb-1 md:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
          my projects
         </h1>

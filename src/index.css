@@ -17,3 +17,6 @@
 .mask-rect{
   animation : slidMask 5s ease infinite;
 }
+html {
+    scroll-behavior: smooth;
+  }

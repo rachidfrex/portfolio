@@ -2,9 +2,11 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="mt-5 mx-5 overflow-hidden md:mt-20 flex flex-col justify-center items-center">
+    <div
+    id='contact'
+     className="mt-5 mx-5 overflow-hidden md:mt-20 flex flex-col justify-center items-center">
       <h1 className='text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50'>
-        Contact
+        Contact Me
       </h1>
       <form className="mt-8 w-full max-w-lg">
         <div className="mb-6">
