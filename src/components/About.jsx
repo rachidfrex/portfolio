@@ -200,7 +200,7 @@ const About = () => {
                 <h3 className=" text-lg  font-semibold text-start w-full">
                  My Hobbies
                 </h3>
-              <p className=" text-sm justify-center items-center z-50 text-white">
+              <p className=" text-xs md:text-sm justify-center items-center z-50 text-white">
               Discover my diverse interests: a passion for sports, a love for digital innovation, and a flair for cooking. Each activity brings unique joy, creativity, and balance to my life, enriching both my personal and professional experiences.
               </p>
             
