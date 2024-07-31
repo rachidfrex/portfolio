@@ -1,6 +1,7 @@
 import React from "react";
 import { Spotlight } from "../components/ui/Spotlight";
 import { MdOutlineFileDownload } from "react-icons/md";
+import cv from "../assets/pdf/rachidCV.pdf";
 
 function Header() {
   return (
@@ -21,7 +22,7 @@ function Header() {
           I am a full stack web developer with a passion for building beautiful
           and functional websites
         </p>
-        <a  href="" className="w-full flex justify-center items-center ">
+        <a  download  href={cv} className="w-full flex justify-center items-center ">
         <button className="flex relative gap-2 border    border-gray-700  text-sm font-semibold rounded-lg border- justify-center  mt-10 items-center px-5 py-1 text-zinc-300 ">
         <div class="  absolute right-0 blur-sm top-0   h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.52),rgba(255,255,255,0))] "></div>
           
