@@ -23,7 +23,7 @@ function Header() {
         </p>
         <a  href="" className="w-full flex justify-center items-center ">
         <button className="flex relative gap-2 border    border-gray-700  text-sm font-semibold rounded-lg border- justify-center  mt-10 items-center px-5 py-1 text-zinc-300 ">
-        <div class=" resume absolute right-0 blur-sm top-0   h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.32),rgba(255,255,255,0))] "></div>
+        <div class="  absolute right-0 blur-sm top-0   h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.52),rgba(255,255,255,0))] "></div>
           
           <MdOutlineFileDownload size={20}  />
           save  my resume

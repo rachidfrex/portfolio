@@ -37,3 +37,4 @@ const Linelaser2 = (size ,buttonColor)   => {
 };
 
 export default Linelaser2;
+

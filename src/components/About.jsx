@@ -1,6 +1,6 @@
 import React from "react";
 import svg from "../assets/svg/Frame3.svg";
-import Linelaser from "../components/ui/linelaser";
+import Linelaser  from "../components/ui/linelaser";
 import logo from "../assets/images/logo.png";
 import sukuna from "../assets/images/sukuna.jpeg";
 import cat from "../assets/images/cat.jpg";
@@ -96,10 +96,11 @@ const About = () => {
             alt="svg"
             className=" w-52 h-52  -right-[70px] -top-20 opacity-25 -z-10 bg-cover absolute"
           />
+          
 
           <img src={logo} className=" w-[350px]" alt="logo" />
           <div className=" h-52 left-0  -bottom-5 w-full opacity-25 -z-10 absolute">
-            <Linelaser />
+          <Linelaser />
           </div>
         </div>
 
