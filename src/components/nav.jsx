@@ -9,7 +9,10 @@ function Nav() {
   return (
     <div className=' fixed w-full z-50 flex mt-4 justify-center  items-center '>
       <nav className='text-center py-1 w-auto text-sm overflow-hidden bg-zinc-800/90 gap-1 px-1 flex text-white rounded-full'>
-        <img src={logo} className='h-7 w-7 mx-2' alt="" />
+      <a href="#home">
+      <img src={logo} className='h-7 w-7 mx-2' alt="" />
+
+      </a>
         <ul className='flex font-rubik w-full justify-center items-center space-x-4'>
           {['about', 'project', 'contact'].map(item => (
             <a href={`#${item}`} key={item} onClick={() => setSelected(item)} className='px-5  z-10 py-1 rounded-full cursor-pointer relative'>
