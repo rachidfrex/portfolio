@@ -1,10 +1,11 @@
 import React from "react";
 import svg from "../assets/svg/Frame3.svg";
-import Linelaser  from "../components/ui/linelaser";
+import Linelaser from "../components/ui/linelaser";
 import logo from "../assets/images/logo.png";
 import sukuna from "../assets/images/sukuna.jpeg";
 import cat from "../assets/images/cat.jpg";
 import cv from "../assets/pdf/rachidCV.pdf";
+import hobi from "../assets/images/hobi.jpeg";
 import { RiReactjsLine } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
@@ -17,7 +18,10 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div id="about" className="max-w-7xl px-3 lg:mx-auto w-full  lg:h-[700px] flex justify-center   items-center">
+    <div
+      id="about"
+      className="max-w-7xl px-3 lg:mx-auto w-full  lg:h-[700px] flex justify-center   items-center"
+    >
       <div className=" flex flex-col mt-5   justify-center lg:grid grid-cols-12  grid-rows-10 lg:grid-rows-6 gap-4 h-full w-full">
         <div className="relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700  lg:h-auto     lg:col-span-4 lg:row-span-3 rounded-3xl flex justify-center items-center ">
           {/* <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,198,0.32),rgba(255,255,255,0))]"></div> */}
@@ -72,14 +76,14 @@ const About = () => {
 
           <div className="flex justify-center  items-center w-full gap-5">
             <a
-                target="_blank"
+              target="_blank"
               href="https://github.com/rachidfrex"
               className="  border-2 border-zinc-700 z-50 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 "
             >
               <FaGithub size={35} />
             </a>
             <a
-                target="_blank"
+              target="_blank"
               href="https://www.linkedin.com/in/rachid-hajouji-642576292/"
               className=" border-2 z-50 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 "
             >
@@ -96,11 +100,10 @@ const About = () => {
             alt="svg"
             className=" w-52 h-52  -right-[70px] -top-20 opacity-25 -z-10 bg-cover absolute"
           />
-          
 
           <img src={logo} className=" w-[350px]" alt="logo" />
           <div className=" h-52 left-0  -bottom-5 w-full opacity-25 -z-10 absolute">
-          <Linelaser />
+            <Linelaser />
           </div>
         </div>
 
@@ -161,7 +164,8 @@ const About = () => {
           </div>
         </div>
         {/* end of the backend info */}
-        <div className=" relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700  lg:col-span-6 lg:row-span-2 rounded-3xl flex flex-col justify-center items-start">
+        {/* hobbie */}
+        {/* <div className=" relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700  lg:col-span-6 lg:row-span-2 rounded-3xl flex flex-col justify-center items-start">
           <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.32),rgba(255,255,255,0))]"></div>
 
           <div className="flex flex-col gap-5 h-full w-full  p-5 justify-start items-start">
@@ -181,6 +185,27 @@ const About = () => {
             </a>
             </button>
           </div>
+        </div> */}
+
+        <div className=" relative overflow-hidden  backdrop-blur-lg text-white border-2 border-gray-700  lg:col-span-6 lg:row-span-2 rounded-3xl flex flex-col justify-center items-start">
+          <div class="absolute right-0 blur-sm top-0 z-59 h-full w-full   bg-transparent bg-[radial-gradient(ellipse_90%_90%_at_50%_10%,rgba(120,119,120,0.32),rgba(255,255,255,0))]"></div>
+
+          <div className="flex flex-col gap-5 h-full w-full   justify-start items-start">
+           <img src={hobi} alt="  " className=" object-cover w-full" />
+           
+          </div>
+
+          <div className="  flex  flex-col w-full justify-end bg-gradient-to-t  from-black to-transparent h-full text-lg absolute   p-5">
+            
+                <h3 className=" text-lg  font-semibold text-start w-full">
+                 My Hobbies
+                </h3>
+              <p className=" text-sm justify-center items-center z-50 text-white">
+              Discover my diverse interests: a passion for sports, a love for digital innovation, and a flair for cooking. Each activity brings unique joy, creativity, and balance to my life, enriching both my personal and professional experiences.
+              </p>
+            
+          </div>
+
         </div>
       </div>
     </div>
