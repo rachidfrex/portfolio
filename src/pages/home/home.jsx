@@ -6,8 +6,10 @@ import Project from '../../components/project'
 import Contact from '../../components/contact'
 function home() {
   return (
-    <div className=' '>
-      
+    <div className='    '>
+      <div className='grid-bg absolute w-[100% ] h-[100%] top-0 '>
+        
+      </div>
         <Nav/>
         <Header/>
         <About/>
