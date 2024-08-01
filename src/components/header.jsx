@@ -7,15 +7,15 @@ function Header() {
   return (
     <div 
     id="home"
-    className="flex flex-col overflow-hidden justify-center items-center  w-full  h-[40vh] md:h-[80vh] ">
+    className="flex flex-col overflow-hidden justify-center items-center  w-full  h-fit md:h-[80vh] ">
       <Spotlight
         className="  md:ml-20 -top-40 ove  left-0 md:left-60 md:-top-20"
         fill="white"
       />
       
     
-      <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
-        <h1 className="text-4xl md:text-7xl h-[155px] font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+      <div className=" p-4 max-w-7xl mt-20 md:mt-0 mx-auto relative z-10  w-full pt-20 md:pt-0">
+        <h1 className="text-4xl md:text-7xl   font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           Hi my Name is <br />  Rachid EL Hajouji
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
