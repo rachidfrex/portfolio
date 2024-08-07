@@ -84,7 +84,7 @@ const About = () => {
             </a>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/rachid-hajouji-642576292/"
+              href="https://www.linkedin.com/in/rachid-el-hajouji-9b9a6929a/"
               className=" border-2 z-50 border-zinc-700 bg-transparent p-2 rounded-md  shadow-inner shadow-sky-100/30 "
             >
               <FaLinkedinIn size={35} />
