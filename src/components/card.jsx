@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub } from "react-icons/fa";
 
 const Card = ({ project, onClick }) => {
   return (
@@ -20,8 +21,13 @@ const Card = ({ project, onClick }) => {
           </span>
         ))}
       </div>
-      <h1 className='m-4 uppercase font-rubik flex justify-start items-center font-semibold text-indigo-600 dark:text-white'>
+      <h1 className='m-4 uppercase font-rubik flex  justify-between items-center font-semibold text-indigo-600 dark:text-white'>
         {project.title}
+       <a href={project.github}>
+       <button >
+          <FaGithub size={20} />
+        </button>
+       </a>
       </h1>
     </div>
   );

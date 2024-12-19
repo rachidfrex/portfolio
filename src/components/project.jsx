@@ -58,7 +58,7 @@ function ProjectCard() {
         description: "I built a blog website with a beautiful design and many features like comments, likes, and more. I used React for the frontend and Laravel for the backend."
       },
         title: "offblog",
-        github : " ",
+        github : "https://github.com/rachidfrex/OffBlog.git",
 
     },
     {
@@ -73,7 +73,8 @@ function ProjectCard() {
         details: "A beautiful website for a coffee shop built with React and Tailwind CSS."
       },
       title: "Naghma Coffee",
-      details: "A beautiful website for a coffee shop built with React and Tailwind CSS."
+      details: "A beautiful website for a coffee shop built with React and Tailwind CSS.",
+      github : "https://github.com/rachidfrex/cap-Naghma"
     },
     {
       image: gomanga,
